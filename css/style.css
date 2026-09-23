@@ -103,3 +103,56 @@ footer {
     font-size: 14px;
     border-top: 1px solid #ccc;
 }
+
+/* Add these rules to css/style.css for the individual job listing page. */
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 13px;
+    background-color: #eeeeea;
+    border: 1px solid #ccc;
+    color: #284b63;
+    border-radius: 4px;
+}
+
+.back-button:hover {
+    background-color: #e4e4df;
+    text-decoration: none;
+}
+
+.job-listing {
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    padding: 22px 28px;
+    margin-bottom: 25px;
+}
+
+.job-listing h3 {
+    margin: -8px 0 4px 0;
+    color: #555;
+    font-size: 19px;
+}
+
+.job-listing address {
+    margin: 0 0 25px 0;
+    color: #666;
+    font-style: normal;
+}
+
+.job-details th {
+    width: 180px;
+    vertical-align: top;
+}
+
+.job-details td {
+    vertical-align: top;
+}
+
+.job-details td p:first-child {
+    margin-top: 0;
+}
+
+.job-details td p:last-child {
+    margin-bottom: 0;
+}
