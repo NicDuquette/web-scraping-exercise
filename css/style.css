@@ -156,3 +156,11 @@ footer {
 .job-details td p:last-child {
     margin-bottom: 0;
 }
+
+.job-details th {
+    width: 40%;
+}
+
+.job-details td {
+    width: 60%;
+}
