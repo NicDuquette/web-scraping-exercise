@@ -140,12 +140,18 @@ footer {
     font-style: normal;
 }
 
+.job-details {
+    width: 100%;
+    table-layout: fixed;
+}
+
 .job-details th {
-    width: 180px;
+    width: 40%;
     vertical-align: top;
 }
 
 .job-details td {
+    width: 60%;
     vertical-align: top;
 }
 
@@ -157,10 +163,3 @@ footer {
     margin-bottom: 0;
 }
 
-.job-details th {
-    width: 40%;
-}
-
-.job-details td {
-    width: 60%;
-}
